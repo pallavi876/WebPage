@@ -1,0 +1,251 @@
+.leftmenu
+    {
+      padding: 10px 10px;
+      background-color: rgb(214, 190, 233);
+      
+    }
+    .leftmenu li
+    {
+      padding-top: 5px;
+    }
+    .nav-pills>li>a {
+      border: 1px solid black;      
+      color:black;
+    }
+    .nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
+     color: black;
+     background-color: #8f5f3f;
+   }
+   .nav-pills>li>a:hover {
+    color: #c92c2c;   
+  }
+
+    .rightsection h1,h2,h3,h4,h5,h6
+    {
+      color:#8a3f0d;
+    }
+ 
+
+
+
+	.toprow
+	{
+		background-color: #f3e351;
+		padding: 5px 10px 5px 10px;
+		border-bottom: 1px solid #eee;
+		color: #fff;
+		font-family: "Montserrat";
+		font-size: 15px;		
+		font-weight: 100;
+
+	}
+	.headerrow
+	{
+		padding: 0px 10px 10px 10px;
+		margin: 0px;
+		background-color: #fff;
+		background-color: #acc46c;
+
+	}
+	.left-logo
+	{
+		margin-top: 6px;
+		border-right: 1px solid rgb(112, 5, 5);	
+	}
+
+	.left-logo img
+	{
+		width: 170px;
+		height: 100px;
+	}
+
+	.right-logo
+	{
+		border-left: 1px solid rgb(112, 5, 5);	
+	}
+
+	.right-logo img
+	{
+		height: 100px;
+
+	}
+
+	.headertitle
+	{
+		font-size: 40px;
+		font-weight: 700;
+	  color: #692228;
+	  /*color: #223053;*/
+	  display: block;
+	  font-family: "Oswald Regular";
+	  width: 100%;
+	  text-shadow: 2px 3px 5px #333;
+	  margin-top: 10px;
+
+	}
+	.subtitle
+	{
+		font-size: 20px;
+	  color: #860909;
+	  /*color: #fff;*/
+	  display: block;
+	  font-family: "Montserrat";
+	  width: 100%;
+	   
+	}
+	.subtitle2
+	{
+		font-size: 14px;
+	  color: #852020;
+	  color: #fff;
+	  display: block;
+	  font-family: "Montserrat";
+	  width: 120%;
+	   
+	}
+	@media screen and (max-width: 680px) 
+	{
+			.toprow
+			{
+				
+				padding: 0px 5px 0px 5px;
+				color: #fff;
+				font-family: "Montserrat";
+				font-size: 15px;		
+				font-weight: 100;
+
+			}
+			.headerrow
+			{
+				padding: 0px 10px 10px 10px;
+				margin-top: 15px;
+
+			}
+
+			.left-logo img
+			{
+				width: 60px;
+			}
+
+			.right-logo
+			{
+				background-color: #703c19; 
+				padding: 10px; 
+				border-radius: 50%; 
+				color: #fff; 
+				width: 50px; 		
+				text-align: center;
+				margin-bottom: 10px;
+			}
+
+			.headertitle
+			{
+				font-size: 25px;
+			  color: #223053;
+			  display: block;
+			  font-family: "Oswald Regular";
+			  text-shadow: 0px 0px 0px #333;
+			  width: 100%;
+			  text-align: center;
+			  margin-top: 10px;
+			}
+			.subtitle
+			{
+				font-size: 15px;
+			  color: #717171;
+			  display: block;
+			  font-family: "Montserrat";
+			  width: 100%;
+			  text-align: center;
+			}
+			.subtitle2
+			{
+				font-size: 13px;
+			  color: #717171;
+			  display: block;
+			  font-family: "Montserrat";
+			  width: 100%;
+			  text-align: center;
+            }
+        }
+
+        .pagetitle
+        {
+          padding: 20px 0px;
+          background-color: #aaf1f3;
+        }
+        .pagetitle h1
+        {
+          margin: 5px 0px; 
+          color: #4d2104;
+          font-size: 30px;
+          text-shadow: 2px 3px 5px #333;
+        }
+      
+          body{
+              background-color: rgb(117, 54, 54);
+          }
+          .navbar{
+              border-radius: 0px;
+             
+              background-color: rgb(194, 144, 52);
+              color: rgb(145, 41, 41);
+              
+              margin-bottom: 0px;
+              z-index: 99;
+          }
+          .navbar-default{
+              border:none; 
+          }
+      
+          .nav>li>a
+          {
+              padding-left: 20px;
+              padding-right: 10px;
+          }
+      
+          .title{
+              color: orange;
+              font-weight: 300;
+              font-size: 24px;
+          }
+          .active{    
+              background-color: rgb(87, 37, 37);
+          }
+          .navbar-default .navbar-nav>li>a {
+              color: white;
+          }
+          .navbar-default .navbar-nav>li>a:hover {
+              background: orange;
+          }
+      
+          .overlay {
+              height: 0%;
+              width: 100%;
+              position: fixed;
+              z-index: 1;
+              top: 0;
+              left: 0;
+              background-color: rgb(0,0,0);
+              background-color: rgba(0,0,0, 0.9);
+              overflow-y: hidden;
+              transition: 0.5s;
+          }
+      
+          .overlay-content {
+              position: relative;
+              width: 100%;
+              margin-top: 50px;
+          }
+      
+      
+          .overlay a:hover, .overlay a:focus {
+              color: rgb(16, 199, 92);
+          }
+      
+          .overlay .closebtn {
+              position: absolute;
+              top: 10px;
+              right: 45px;
+              font-size: 40px;
+          }
